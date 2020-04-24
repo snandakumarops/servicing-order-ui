@@ -2,51 +2,83 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e583fbfe-585f-43b9-945d-ebc2d2ca5309" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/acme/restclient/ResultObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/resources/calculator.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/c/0ce74b347c13e69d7cd9e3c161079dd49ea4ee90" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/c/2cd0c24eae1a93425029be15fcb588788f1d22a7" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/2/42210adb98ed36e74c41b4a339f666987569f6d4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/52e65e0cf756e6ba73a32545c2604f9ceb7d7429" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/d/5d80db68e411a0baea3b656cb7f707106a8eb889" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/758bdff776aa5f782d6f1ca44a12172ed35e9625" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/1/b17860cfe2bed87a944f00c491086d5bd3ccf27d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/loan-prequal-calculator.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/LegalReview.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/LegalReview.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/resources/customerprofile.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/resources/customerprofile.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/native-image.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/native-image.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/OnboardingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/acme/restclient/TaskSummary.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ArcProcessor$generateResources12.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ArcProcessor$generateResources12.zig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/LoggingResourceProcessor$setupLoggingRuntimeInit4.zig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$processInterfaces8.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties15.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/LoggingResourceProcessor$setupLoggingStaticInit3.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$processInterfaces5.zig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$registerProviders11.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$registerProviders11.zig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$setup2.zig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection14.zig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor1.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor1.zig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowArcIntegrationBuildStep$integrateRequestContext13.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RestClientProcessor$setup4.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection13.zig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RuntimeBeanProcessor$build10.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/RuntimeBeanProcessor$build10.zig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor1.zig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$boot17.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$boot17.zig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$build16.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$build16.zig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/deployment/steps/UndertowBuildStep$servletContextBean5.zig" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/ApplicationImpl1.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/ApplicationImpl1.zig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/AutoFeature.zig" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/gizmo/io/quarkus/runner/AutoFeature.zig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT-runner.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT-runner.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/rest-client-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/META-INF/build-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/META-INF/build-config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/META-INF/quarkus-default-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/META-INF/quarkus-default-config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/ActivateRequestContextInterceptor_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/ActivateRequestContextInterceptor_Bean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/runtime/LifecycleEventRunner_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/runtime/LifecycleEventRunner_Bean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/setup/Default_ComponentsProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/arc/setup/Default_ComponentsProvider.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ArcProcessor$generateResources12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ArcProcessor$generateResources12.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/LoggingResourceProcessor$setupLoggingRuntimeInit4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$processInterfaces8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ConfigBuildStep$validateConfigProperties15.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/LoggingResourceProcessor$setupLoggingStaticInit3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$processInterfaces5.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$registerProviders11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$registerProviders11.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$setup2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection14.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowArcIntegrationBuildStep$integrateRequestContext13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RestClientProcessor$setup4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ResteasyServerCommonProcessor$setupInjection13.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RuntimeBeanProcessor$build10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/RuntimeBeanProcessor$build10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/ThreadPoolSetup$createExecutor1.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$boot17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$boot17.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$build16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$build16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/deployment/steps/UndertowBuildStep$servletContextBean5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ProducerMethod_objectMapper_cadf69d867b9c4006393a8529f6dd6b9807e242c_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ProducerMethod_objectMapper_cadf69d867b9c4006393a8529f6dd6b9807e242c_Bean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ClientProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/ObjectMapperProducer_ClientProxy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/QuarkusObjectMapperContextResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/resteasy/jackson/runtime/QuarkusObjectMapperContextResolver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/ApplicationImpl1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/ApplicationImpl1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/AutoFeature.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runner/AutoFeature.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/BuildTimeConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/BuildTimeConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/BuildTimeConfigRoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/BuildTimeConfigRoot.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeConfigRoot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/io/quarkus/runtime/generated/RunTimeConfigRoot.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/acme/restclient/OnboardingResource_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/org/acme/restclient/OnboardingResource_Bean.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/ProjectRuntime_ClientProxy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/ProjectRuntime_ClientProxy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultKieSession_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultKieSession_Bean.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultStatelessKieSession_Bean.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/wiring-classes/org/drools/project/model/SessionRuleUnit_defaultStatelessKieSession_Bean.class" afterDir="false" />
     </list>
@@ -60,11 +92,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="OnboardingResource.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java">
+      <file leaf-file-name="LoanCalculatorResource.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3330">
-              <caret line="246" column="45" selection-start-line="246" selection-start-column="45" selection-end-line="246" selection-end-column="45" />
+            <state relative-caret-position="135">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,74 +104,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Files.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/nio/file/Files.java">
+      <file leaf-file-name="calculator.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/calculator.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11475">
-              <caret line="842" column="64" selection-start-line="842" selection-start-column="59" selection-end-line="842" selection-end-column="64" />
+            <state relative-caret-position="253">
+              <caret line="166" column="12" lean-forward="true" selection-start-line="150" selection-start-column="4" selection-end-line="166" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="File.java" pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/io/File.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3585">
-              <caret line="274" column="11" selection-start-line="274" selection-start-column="11" selection-end-line="274" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="customerprofile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1320">
-              <caret line="88" column="71" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="71" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskSummary.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="e#257#258#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#366#367#0" expanded="true" />
-                <element signature="e#422#423#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="38" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="38" />
-              <folding>
-                <element signature="e#611#612#0" expanded="true" />
-                <element signature="e#645#646#0" expanded="true" />
-                <element signature="e#698#699#0" expanded="true" />
-                <element signature="e#744#745#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-                <element signature="e#832#833#0" expanded="true" />
-                <element signature="e#902#903#0" expanded="true" />
-                <element signature="e#964#965#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OnboardingService.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java">
+      <file leaf-file-name="ResultObj.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/ResultObj.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -148,26 +128,29 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="48" column="16" selection-start-line="43" selection-start-column="1" selection-end-line="48" selection-end-column="16" />
+            <state relative-caret-position="480">
+              <caret line="32" column="37" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoanCalculatorService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FileUpload.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4710">
-              <caret line="314" selection-start-line="313" selection-start-column="16" selection-end-line="314" />
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -183,16 +166,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Gettask</find>
-      <find>aler</find>
-      <find>case</find>
-      <find>docs</find>
-      <find>new ca</find>
-      <find>getTaskSumma</find>
-      <find>getDoc</find>
-      <find>baseURL</find>
-      <find>ng</find>
-      <find>clickRef</find>
       <find>function</find>
       <find>casefile</find>
       <find>openFile</find>
@@ -213,6 +186,16 @@
       <find>upload</find>
       <find>agentLogin</find>
       <find>getTas</find>
+      <find>button</find>
+      <find>angula</find>
+      <find>ng-cl</find>
+      <find>check</find>
+      <find>checkFunc</find>
+      <find>response</find>
+      <find>center</find>
+      <find>alert</find>
+      <find>client</find>
+      <find>Cre</find>
     </findStrings>
     <replaceStrings>
       <replace>fsi_onboarding.OnboardingProcess</replace>
@@ -237,17 +220,19 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/CountriesServicesImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/Document.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/CountriesService.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/CountriesResource.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html" />
-        <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" />
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html" />
+        <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/ResultObj.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -259,9 +244,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1360" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="832" />
+    <option name="width" value="80" />
+    <option name="height" value="24" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -269,50 +255,50 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="FSIOnboarding-QuarkusUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FSIOnboarding-QuarkusUI" type="462c0819:PsiDirectoryNode" />
+              <item name="LoanPrequalificationCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoanPrequalificationCalculator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FSIOnboarding-QuarkusUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FSIOnboarding-QuarkusUI" type="462c0819:PsiDirectoryNode" />
+              <item name="LoanPrequalificationCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoanPrequalificationCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FSIOnboarding-QuarkusUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FSIOnboarding-QuarkusUI" type="462c0819:PsiDirectoryNode" />
+              <item name="LoanPrequalificationCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoanPrequalificationCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FSIOnboarding-QuarkusUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FSIOnboarding-QuarkusUI" type="462c0819:PsiDirectoryNode" />
+              <item name="LoanPrequalificationCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoanPrequalificationCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FSIOnboarding-QuarkusUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FSIOnboarding-QuarkusUI" type="462c0819:PsiDirectoryNode" />
+              <item name="LoanPrequalificationCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoanPrequalificationCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="restclient" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FSIOnboarding-QuarkusUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FSIOnboarding-QuarkusUI" type="462c0819:PsiDirectoryNode" />
+              <item name="LoanPrequalificationCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoanPrequalificationCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="FSIOnboarding-QuarkusUI" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FSIOnboarding-QuarkusUI" type="462c0819:PsiDirectoryNode" />
+              <item name="LoanPrequalificationCalculator" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LoanPrequalificationCalculator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -322,12 +308,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/sadhananandakumar/Documents/Demos/FSI_Client_Onboarding_UI/rest-client/src/main/resources/META-INF/resources/FileUpload.html" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.externalDependencies" />
   </component>
@@ -463,23 +450,32 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="832" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3292517" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info id="Image Layers" order="4" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Run" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.45034012" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3292517" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.45034012" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="0" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.3597997" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3962804" />
       <window_info anchor="bottom" id="SonarLint" order="0" weight="0.3292517" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
@@ -492,7 +488,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32969698" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.3292517" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="4" />
@@ -501,22 +497,22 @@
       <window_info anchor="bottom" id="Run" order="6" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="bottom" id="SonarLint" order="0" weight="0.3292517" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.35479257" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3748212" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="TODO" order="10" weight="0.3292517" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info id="UI Designer" order="1" />
-      <window_info anchor="bottom" id="Find" order="5" weight="0.32969698" />
+      <window_info anchor="bottom" id="Find" order="5" visible="true" weight="0.3292517" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.45034012" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.45034012" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3292517" />
       <window_info id="Capture Tool" order="2" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="right" id="Maven Projects" order="3" />
@@ -530,8 +526,8 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java</url>
-          <line>189</line>
+          <url>file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java</url>
+          <line>71</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -540,14 +536,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3735">
           <caret line="272" column="33" selection-start-line="272" selection-start-column="33" selection-end-line="272" selection-end-column="33" />
@@ -557,34 +546,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/calculator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5250">
           <caret line="350" selection-start-line="350" selection-end-line="350" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/ResultObj.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
           <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4965">
-          <caret line="331" column="18" lean-forward="true" selection-start-line="328" selection-start-column="12" selection-end-line="331" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="840">
           <caret line="59" column="11" selection-start-line="59" selection-start-column="11" selection-end-line="59" selection-end-column="11" />
@@ -594,14 +574,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5055">
-          <caret line="337" column="16" selection-start-line="337" selection-start-column="16" selection-end-line="337" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1875">
           <caret line="125" column="33" selection-start-line="125" selection-start-column="33" selection-end-line="125" selection-end-column="33" />
@@ -611,34 +585,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4200">
-          <caret line="280" column="26" selection-start-line="280" selection-start-column="26" selection-end-line="280" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/ResultObj.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
           <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1395">
-          <caret line="93" column="62" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="735">
           <caret line="55" column="86" selection-start-line="55" selection-start-column="86" selection-end-line="55" selection-end-column="86" />
@@ -648,7 +607,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
@@ -665,7 +624,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/calculator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4935">
           <caret line="329" column="49" selection-start-line="329" selection-start-column="49" selection-end-line="329" selection-end-column="49" />
@@ -680,30 +639,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3915">
-          <caret line="261" lean-forward="true" selection-start-line="261" selection-end-line="261" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -711,7 +648,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
@@ -721,7 +658,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="29" column="70" selection-start-line="29" selection-start-column="70" selection-end-line="29" selection-end-column="70" />
@@ -731,7 +668,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
@@ -745,23 +682,7 @@
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -769,7 +690,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/calculator.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4800">
           <caret line="320" column="47" selection-start-line="320" selection-start-column="47" selection-end-line="320" selection-end-column="47" />
@@ -838,13 +759,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5385">
-          <caret line="359" column="6" selection-start-line="359" selection-start-column="6" selection-end-line="359" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/io/File.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3585">
@@ -859,81 +773,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/TaskSummary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="e#257#258#0" expanded="true" />
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#422#423#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="38" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="38" />
-          <folding>
-            <element signature="e#611#612#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#698#699#0" expanded="true" />
-            <element signature="e#744#745#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#902#903#0" expanded="true" />
-            <element signature="e#964#965#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/LegalReview.html" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="48" column="16" selection-start-line="43" selection-start-column="1" selection-end-line="48" selection-end-column="16" />
+        <state relative-caret-position="480">
+          <caret line="32" column="37" selection-start-line="32" selection-start-column="31" selection-end-line="32" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/customerprofile.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/Customer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/ResultObj.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="88" column="71" selection-start-line="88" selection-start-column="2" selection-end-line="88" selection-end-column="71" />
+        <state relative-caret-position="180">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/FileUpload.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4710">
-          <caret line="314" selection-start-line="313" selection-start-column="16" selection-end-line="314" />
+        <state relative-caret-position="210">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/LoanCalculatorResource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/css/patternfly.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="4897" column="20" selection-start-line="4897" selection-start-column="14" selection-end-line="4897" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/META-INF/resources/calculator.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="166" column="12" lean-forward="true" selection-start-line="150" selection-start-column="4" selection-end-line="166" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3330">
-          <caret line="246" column="45" selection-start-line="246" selection-start-column="45" selection-end-line="246" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/acme/restclient/OnboardingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
         </state>
       </provider>
     </entry>

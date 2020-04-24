@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="rest-client" />
+        <module name="loan-prequal-calculator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="rest-client" target="1.8" />
+      <module name="loan-prequal-calculator" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
