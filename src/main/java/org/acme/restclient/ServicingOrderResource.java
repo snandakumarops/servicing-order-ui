@@ -32,16 +32,16 @@ public class ServicingOrderResource {
     public String postCase(String json) {
 
         try {
-            RequestObj mapVal = new Gson().fromJson(json,RequestObj.class);
+            LinkedHashMap mapVal = new Gson().fromJson(json,LinkedHashMap.class);
             System.out.println(mapVal);
-            System.out.println(mapVal.getCustomerReference());
-            System.out.println(mapVal.getProductType());
+            System.out.println(mapVal.get("customerReference"));
+            System.out.println(mapVal.get("productType"));
 
             String body = " {\"data\": {\n" +
                     "        \"customerEligibilityAssessmentEvaluateActionRecord\": {},\n" +
                     "        \"customerEligibilityAssessmentInstanceRecord\": {\n" +
-                    "         \"customerReference\":\""+mapVal.getCustomerReference()+"\",\n" +
-                    "         \"productServiceType\":\""+mapVal.getProductType()+"\"\n" +
+                    "         \"customerReference\":\""+mapVal.get("customerReference")+"\",\n" +
+                    "         \"productServiceType\":\""+mapVal.get("productType")+"\"\n" +
                     "        }\n" +
                     "      }\n" +
                     "    }";
@@ -70,16 +70,16 @@ public class ServicingOrderResource {
     @Path("/initiateOffer")
     public String initiateOffer(String json) {
         try {
-            RequestObj mapVal = new Gson().fromJson(json, RequestObj.class);
+            LinkedHashMap mapVal = new Gson().fromJson(json,LinkedHashMap.class);
             System.out.println(mapVal);
-            System.out.println(mapVal.getCustomerReference());
-            System.out.println(mapVal.getProductType());
+            System.out.println(mapVal.get("customerReference"));
+            System.out.println(mapVal.get("productType"));
 
             String body = "{\"data\": {\n" +
                     "\t\t\"customerOfferProcedureInitiateActionRecord\": {},\n" +
                     "\t\t\"customerOfferProcedureInstanceRecord\": {\n" +
-                    "\t\t\t\"customerReference\": \"" + mapVal.getCustomerReference() + "\",\n" +
-                    "\t\t\t\"productServiceType\": \"" + mapVal.getProductType() + "\",\n" +
+                    "\t\t\t\"customerReference\": \"" + mapVal.get("customerReference") + "\",\n" +
+                    "\t\t\t\"productServiceType\": \"" + mapVal.get("productType") + "\",\n" +
                     "\t\t\t\"customerOfferProcessingTask\": {\n" +
                     "\t\t\t\t\"customerOfferProcessingTaskType\": \"esignaturere\"\n" +
                     "\t\t\t}\n" +

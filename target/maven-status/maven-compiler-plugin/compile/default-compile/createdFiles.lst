@@ -1,0 +1,5 @@
+org/acme/restclient/BianOfferProcedureInitiationService.class
+org/acme/restclient/RequestObj.class
+org/acme/restclient/ServicingOrderResource.class
+org/acme/restclient/BianEligibilityService.class
+org/acme/restclient/ResultObj.class

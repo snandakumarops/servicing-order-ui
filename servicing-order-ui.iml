@@ -217,6 +217,5 @@
     <orderEntry type="library" name="Maven: org.uberfire:uberfire-maven-support:1.1.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.drools:drools-core:7.1.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.kie:kie-internal:7.1.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.redhat:bian.servicedomain.models:6.0.0" level="project" />
   </component>
 </module>
