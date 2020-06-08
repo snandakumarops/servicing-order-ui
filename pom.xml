@@ -74,6 +74,12 @@
 
     </dependency>
 
+    <dependency>
+      <groupId>com.redhat</groupId>
+      <artifactId>bian.servicedomain.models</artifactId>
+      <version>6.0.0</version>
+
+    </dependency>
 
   </dependencies>
   <build>

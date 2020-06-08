@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="loan-prequal-calculator" />
+        <module name="servicing-order-ui" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="loan-prequal-calculator" target="1.8" />
+      <module name="servicing-order-ui" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

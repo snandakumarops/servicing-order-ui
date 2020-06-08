@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/loan-prequal-calculator.iml" filepath="$PROJECT_DIR$/loan-prequal-calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/servicing-order-ui.iml" filepath="$PROJECT_DIR$/servicing-order-ui.iml" />
     </modules>
   </component>
 </project>

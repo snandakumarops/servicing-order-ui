@@ -78,7 +78,7 @@ Method registerClass60 : V
 ) {
     ** label1
     ** label2
-    LDC (String) "org.acme.restclient.LoanCalculatorService"
+    LDC (String) "org.acme.restclient.BianEligibilityService"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 0
@@ -516,7 +516,7 @@ Method beforeAnalysis : V
     LDC (Integer) 2
     ANEWARRAY java/lang/Class
     ASTORE 24
-    LDC (String) "org.acme.restclient.LoanCalculatorService"
+    LDC (String) "org.acme.restclient.BianEligibilityService"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 25
@@ -540,7 +540,7 @@ Method beforeAnalysis : V
     LDC (Integer) 3
     ANEWARRAY java/lang/Class
     ASTORE 28
-    LDC (String) "org.acme.restclient.LoanCalculatorService"
+    LDC (String) "org.acme.restclient.BianEligibilityService"
     // Method descriptor: (Ljava/lang/String;)Ljava/lang/Class;
     INVOKESTATIC java/lang/Class#forName
     ASTORE 27

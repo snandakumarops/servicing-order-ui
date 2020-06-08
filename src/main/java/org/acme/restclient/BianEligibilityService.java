@@ -9,13 +9,14 @@ import javax.ws.rs.*;
 
 @RegisterRestClient
 
-public interface LoanCalculatorService {
+public interface BianEligibilityService {
 
     @POST
-    @Path("/containers/LoanPreQualification_1.0.0-SNAPSHOT/dmn")
+    @Path("/customer-product-service-eligibility/SD2324/customer-eligibility-assessment/evaluation")
     @Consumes("application/json")
-    @ClientHeaderParam(name="Authorization", value="Basic cGFtQWRtaW46cmVkaGF0cGFtMSE=")
-    String checkQual(String json);
+    String checkEligibility(String body);
+
+
 
 
 }
