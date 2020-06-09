@@ -4,31 +4,40 @@ import java.util.List;
 
 public class ResultObj {
 
-    String qualification;
-    String affordability;
-    String dti;
+    String dueDiligence;
+    String riskCheck;
+    String creditCheck;
+    String eligibilityCheck;
 
-    public String getQualification() {
-        return qualification;
+    public String getDueDiligence() {
+        return dueDiligence;
     }
 
-    public void setQualification(String qualification) {
-        this.qualification = qualification;
+    public void setDueDiligence(String dueDiligence) {
+        this.dueDiligence = dueDiligence;
     }
 
-    public String getAffordability() {
-        return affordability;
+    public String getRiskCheck() {
+        return riskCheck;
     }
 
-    public void setAffordability(String affordability) {
-        this.affordability = affordability;
+    public void setRiskCheck(String riskCheck) {
+        this.riskCheck = riskCheck;
     }
 
-    public String getDti() {
-        return dti;
+    public String getCreditCheck() {
+        return creditCheck;
     }
 
-    public void setDti(String dti) {
-        this.dti = dti;
+    public void setCreditCheck(String creditCheck) {
+        this.creditCheck = creditCheck;
+    }
+
+    public String getEligibilityCheck() {
+        return eligibilityCheck;
+    }
+
+    public void setEligibilityCheck(String eligibilityCheck) {
+        this.eligibilityCheck = eligibilityCheck;
     }
 }
