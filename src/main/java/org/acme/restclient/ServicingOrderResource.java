@@ -68,7 +68,7 @@ public class ServicingOrderResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Path("/initiateOffer")
-    public ResultObj initiateOffer(String json) {
+    public String initiateOffer(String json) {
         try {
             LinkedHashMap mapVal = new Gson().fromJson(json,LinkedHashMap.class);
             System.out.println(mapVal);
@@ -107,14 +107,14 @@ public class ServicingOrderResource {
             Map returnMap = new Gson().fromJson(new Gson().toJson(returnObj), LinkedHashMap.class);
             String returnString = returnMap.get("customerOfferProcessingTaskResult").toString();
             System.out.println(returnString);
-            LinkedHashMap statusMap = new Gson().fromJson(returnString,LinkedHashMap.class);
-            ResultObj resultObj = new ResultObj();
-            resultObj.setCreditCheck(statusMap.get("Credit Rating Check").toString());
-            resultObj.setRiskCheck(statusMap.get("Risk Check").toString());
-            resultObj.setDueDiligence(statusMap.get("Due Diligence").toString());
-            resultObj.setEligibilityCheck(statusMap.get("Product Eligibility").toString());
+//            LinkedHashMap statusMap = new Gson().fromJson(returnString,LinkedHashMap.class);
+//            ResultObj resultObj = new ResultObj();
+//            resultObj.setCreditCheck(statusMap.get("Credit Rating Check").toString());
+//            resultObj.setRiskCheck(statusMap.get("Risk Check").toString());
+//            resultObj.setDueDiligence(statusMap.get("Due Diligence").toString());
+//            resultObj.setEligibilityCheck(statusMap.get("Product Eligibility").toString());
 
-            return resultObj;
+            return returnString;
 
 
         }catch (Exception e) {
