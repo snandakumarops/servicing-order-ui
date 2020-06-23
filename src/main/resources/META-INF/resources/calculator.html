@@ -32,10 +32,12 @@ app.controller('FormController', function($scope,$http) {
   var baseURL = window.location.protocol + '//' + window.location.host;
   $scope.eligibility = 'No';
     $scope.productAdded = '';
+    $scope.checkFunctionInvoked='';
+    $scope.responseMsg=null;
 
 $scope.checkFunc = function() {
 
-
+$scope.checkFunctionInvoked = 'invoked';
 $http({
         url: baseURL+'/service/eligibility-check',
         method: "POST",
@@ -223,11 +225,19 @@ $http({
             <div class="col-xs-12 col-sm-12 col-md-5">
                 <div class="card-pf">
                     <div class="card-pf-heading">
-                        <h2 class="card-pf-title">
-                            Customer Profile
-                        </h2>
-                        <img src="img/cust_img.png"  align="center" style="display: block;margin-left: auto;margin-right: auto;width: 75%;">
+                        <table class="table table-striped table-bordered table-hover" id="table" >
+                            <h2 class="card-pf-title">
+                                Customer Profile
+                            </h2>
+                            <tr>
+                                <td>Customer Name</td><td>Jennifer Smith</td></tr>
+                            <tr><td>Customer Address</td><td>No.8, Raindew Avenue, NC 27502</td></tr>
+                            <tr>   <td>Phone</td><td>919-000-0000</td></tr>
+                            <tr>   <td>Member Since</td><td>2017</td></tr>
+                            <tr>   <td>Member Status</td><td>Disaster Campaign Class - good prospect</td></tr>
 
+
+                        </table>
                         <hr/>
                         <h2 class="card-pf-title">
                             Accounts
@@ -293,6 +303,8 @@ $http({
 
                                     <button id="check"  type="button" class="btn btn-primary" ng-click="checkFunc();">Check Eligibility</button>
                                     <br/>
+
+                                    <div class="spinner" ng-show="checkFunctionInvoked!='' && responseMsg==null"></div>
                                 </div>
 
 

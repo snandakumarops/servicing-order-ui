@@ -54,8 +54,9 @@ $http({
 
 
 
+$scope.addOffer = function() {
 
- $scope.productAdded = $scope.productType + " succesfully added!";
+
 $http({
         url: baseURL+'/service/initiateOffer',
         method: "POST",
